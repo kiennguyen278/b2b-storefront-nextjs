@@ -1,0 +1,39 @@
+
+.header {
+  &.ant-layout-header {
+    padding: 0;
+    line-height: normal;
+    background: #fff;
+  }
+
+  .userPopover {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .btnEmployeeName {
+      padding-right: 0;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}
+
+.dashboardPageMain {
+  padding-top: 30px;
+}
+
+.dateFromTo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .flexCol {
+    width: calc(50% - 30px);
+
+    .ant-picker {
+      width: 100%;
+    }
+  }
+}

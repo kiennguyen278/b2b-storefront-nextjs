@@ -1,0 +1,30 @@
+.loginForm {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 100px 0 0;
+
+  &.test {
+    background: red;
+  }
+
+  .btnContainer {
+    padding-top: 20px;
+  }
+
+  .submitBtn {
+    min-width: 150px;
+    float: right;
+  }
+
+  .forgotBtn {
+    padding: 0;
+    line-height: 40px;
+  }
+
+  .errorMessage {
+    margin-bottom: 1em;
+  }
+}
+
+
+
